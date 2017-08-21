@@ -1,0 +1,25 @@
+
+/*Thumbnail for cards*/
+.card-panel{
+    		max-width: 344px;
+    		margin: 20px;
+    		position: relative;
+    		min-height: 440px;
+    	}
+   .card-panel .panel-heading{
+    		padding: 0px;
+    		margin-bottom: 0px;
+    		background: transparent; 
+    		z-index: -5000;
+    		border-color: transparent;
+    	}
+    .card-panel .panel-body{
+    		padding: 10px;
+    		padding-top: 0px;
+    		background: transparent; 
+    	}
+    .card-panel .panel-body h3.title{
+    		padding-top: 0px ;
+    		font-size: 50px;
+
+    	}

@@ -1,0 +1,385 @@
+/*Thumbnail for cards*/
+#card-panel{
+    		max-width: 344px;
+    		margin: 20px;
+    		position: relative;
+    		min-height: 440px;
+    	}
+    #card-panel .panel-footer{
+    	background-color: transparent;
+    }
+   #card-panel .panel-heading{
+    		padding: 0px;
+    		margin-bottom: 0px;
+    		background: transparent; 
+    		z-index: -5000;
+    		border-color: transparent;
+    	}
+    #card-panel .panel-body{
+    		padding: 10px;
+    		padding-top: 0px;
+    		background: transparent; 
+    	}
+    #card-panel .panel-body h3.title{
+    		padding-top: 0px ;
+    		font-size: 50px;
+			color: #0f8ec7;
+
+    	}
+   #card-panel .panel-body h3.title span{
+		color: #000;
+   }
+
+
+
+/*Thumbnail for newsletters*/
+
+.thumbnail img
+{
+  border : 2px solid;
+  max-height: 350px;
+  width: 100%;
+  overflow: hidden;
+  padding-top:40px; 
+}
+.thumbnail img:hover
+{
+  cursor: pointer;
+  border-radius:0%;  
+  transform:rotateY(360deg)scale(1.025);
+  transition: all 2s ease-out;
+}
+.thumbnail:hover
+{
+  box-shadow: 1px 1px 10px -1px #0f8ec7;
+  transform: scale(.95);
+  transition: .5s ease-out;
+}
+/*Cresendo events*/
+.event-title{
+	padding-bottom: 5px;
+}
+/*events */
+.event-content
+{
+  border: 0px !important;
+}
+.event-content .modal-body
+{
+  padding: 0px;
+}
+#event-title h1
+{
+  position: absolute;
+    top: 28%;
+    left: 35%;
+}
+#event-title
+{
+  min-height: 230px;
+  padding: 0px;
+  width:100%;
+  color: #0f8ec7;
+}
+#event-detail li 
+{
+  text-align: center;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+#event-detail
+{
+   text-align: left;
+   padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#event-detail h3
+{
+	font-family: 'Romanesco', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+#event-detail h1
+{
+	font-family: 'Romanesco', cursive;
+	font-size: 80px;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:20px;  
+}
+
+/*Navbar Form */
+.title{
+	font-family: 'Romanesco', cursive;
+	font-size: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #0f8ec7;
+
+}
+.navbar-header button
+{
+	background-color: #0f8ec7;
+}
+.title span
+{
+
+	color: #000;
+
+}
+h3.title{
+font-size: 40px;
+	padding-bottom:2px;color: #000;;
+}
+body
+{
+	font-family: 'Cantarell', sans-serif;
+	font-weight: 5px;
+	font-size: 15px;
+	line-height: 20px;
+}
+#username,#upassword{
+	width: 100px;
+}
+
+#navigation
+{
+	background: transparent;
+	background-color: rgba(0,0,0,0);
+	border: 1px transparent;
+    transition: background-color 1000ms ease-in;
+    text-align: center;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+.navbar-nav li a {
+    border-top: 2px solid transparent;
+    background-color: transparent;
+}
+.nav li.active {
+    border-top: 2px solid #c37acc;
+    border-bottom: 2px solid #c37acc;
+    background-color: transparent;
+}
+
+.navbar-nav li a.current, .navbar-nav li a:focus, .navbar-nav li a:hover {
+    background-color: transparent;
+    border-top: 1px solid #c37acc; /*background light*/
+    color: #fff;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 23px 15px;
+    color: #f2f2f2;
+}
+.panel
+{
+	background-color: transparent;
+}
+
+section
+{
+	background-color: #f2f2f2;
+}
+#slider
+{
+	padding: 0;
+}
+
+#about
+{
+	position: absolute;
+	left: 40%;
+	align-content: center;
+	font-size: 200px;
+
+}
+#addresstag
+{
+	font-size: 20px;
+}
+
+a {
+    transition: all .4s ease-in 0s;
+}
+
+.parallax{
+		 /*font-family: 'Elsie', cursive;*/
+		 color:#FFF;
+		 margin: 0 auto; 
+		 width: 100%; 
+		 max-width: 1920px; 
+		 position: relative; 
+		 min-height: 100%; 
+		 /*text-shadow:0 0 10px rgba(0,0,0,0.7);*/
+	     background-position: 50% 0%;
+	     background-repeat: repeat;
+	     background-attachment: fixed;
+	 }
+
+/*cusrom bar*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+      background-color: #f2f2f2;
+}
+ 
+::-webkit-scrollbar-thumb {    background-color: #0f8ec7;
+    border-radius: 5px;
+    width: 6px;
+    
+  }
+
+
+/*used as separator*/
+.frseparate
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.frseparate:before{
+	right :10px;
+}
+.frseparate:after{
+	left :10px;
+}
+.frseparate:before, .frseparate:after {
+    content: "__________________";
+    color: #e6e8ea;
+    position: relative;
+    bottom: 6px;
+}
+hr
+{
+	height: 1px;
+ 	border: 0;
+  	width: 100%;
+  	background-color:#0f8ec7;
+}
+
+#footer
+{
+	background : #333;
+	color: #eee;
+	font-size: 14px;
+	padding: 20px;
+}
+
+
+blockquote {
+    line-height: 90%;
+    font-size: 50px;
+    border:none;
+    color: #fff;
+}
+.carousel-caption {
+	padding-bottom: 2px;
+	text-align: left;
+	font-family: 'Romanesco', cursive;
+	padding-top: 2px;
+
+
+}
+/*Starts Animation*/
+.prizemoney {
+-webkit-animation:pump 0.5s linear infinite;
+animation: pump 0.5s linear infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+}
+@keyframes pump
+{
+	100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+	}
+}.lanimation
+{
+	visibility: visible;
+	animation-duration: 1000ms; 
+	animation-delay: 500ms;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; 
+}
+
+.slideDownScale
+{
+	animation-name: slideDownScale;
+}
+.slideRight
+{
+	animation-name: slideRight;
+}
+.fadeInUp
+{
+	animation-name: fadeInUp;
+}
+@keyframes slideDownScale {
+	
+		0% {
+			    opacity: 0;
+			    -webkit-transform: translateY(-2000px);
+			    -ms-transform: translateY(-2000px);
+			    transform: translateY(-2000px); 
+
+		}
+		60% {
+		    opacity: 1;
+		    -webkit-transform: translateY(30px);
+		    -ms-transform: translateY(30px);
+		    transform: translateY(30px);
+		}
+		80% {
+		    -webkit-transform: translateY(-10px);
+		    -ms-transform: translateY(-10px);
+		    transform: translateY(-10px) ;
+		}
+		100%{
+			    -webkit-transform: translateY(0);
+			    -ms-transform: translateY(0);
+			    transform: translateY(0) ;
+		}
+
+
+}
+@keyframes slideRight
+{
+	0%
+	{
+		-webkit-transform: translateX(2000px);
+	    -ms-transform: translateX(2000);
+		transform: translateX(2000px);
+		opacity :0;
+	}
+	100%
+	{    -ms-transform: translateX(0);
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+}
+@keyframes fadeInUp
+{
+	0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100px, 0);
+    transform: translate3d(0,100px, 0);
+	}
+	100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform:none;
+}

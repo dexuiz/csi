@@ -1,0 +1,32 @@
+.event-content
+{
+  border: 0px !important;
+}
+.event-content .modal-body
+{
+  padding: 0px;
+}
+#event-title h1
+{
+  position: absolute;
+    top: 28%;
+    left: 30%;
+}
+#event-title
+{
+  min-height: 230px;
+  padding: 0px;
+  width:100%;
+}
+#event-detail li 
+{
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+#event-detail
+{
+   text-align: left;
+   padding-top: 20px;
+  padding-left: 50px;
+}
